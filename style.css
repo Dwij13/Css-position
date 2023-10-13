@@ -1,0 +1,47 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  background-color: rgb(43, 42, 42);
+  padding-bottom: 1000px;
+}
+nav{
+  height: 5vh;
+  width: 100vw;
+  background-color: black;
+  /* Podition fixed to fix the nav bar on top */
+  position: fixed;
+  display: flex;
+
+
+}
+#cont{
+  display: flex;
+  color: white;
+  /* position absolute */
+  position: absolute;
+  right: 100px;
+  width: 45vw;
+  justify-content: space-around;
+  top: -5px;
+  
+}
+#img{
+  /* position relative */
+  position: relative;
+  left: 50px;
+}
+/* postion static */
+#fotu{
+position: static;
+/* margin-left: 396px; */
+margin-left: 25vw;
+}
+/* position sticky */
+#fotu2{
+position: sticky;
+/* margin-left: 396px; */
+margin-left: 25vw;
+}
+
+
